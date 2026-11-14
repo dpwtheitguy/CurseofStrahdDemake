@@ -30,7 +30,7 @@ build/start.o: src/start.S | build
 build/%.o: src/%.c | build
 	"$(GBA_CC)" $(CFLAGS) -c $< -o $@
 
-build/battlefield.o: src/battlefield-maps.h src/battlefield-fighter.h
+build/battlefield.o: src/battlefield-maps.h src/battlefield-fighter.h src/battlefield-character.h
 
 build/hello.elf: build/start.o build/main.o src/gba.ld
 	"$(GBA_CC)" $(ARCH) -nostdlib -Wl,--build-id=none,-T,src/gba.ld,-Map,$(@:.elf=.map) $(filter %.o,$^) -o $@
@@ -38,7 +38,7 @@ build/hello.elf: build/start.o build/main.o src/gba.ld
 build/battlefield.elf: build/start.o build/battlefield.o src/gba.ld
 	"$(GBA_CC)" $(ARCH) -nostdlib -Wl,--build-id=none,-T,src/gba.ld,-Map,$(@:.elf=.map) $(filter %.o,$^) -o $@
 
-build/river-trial.o: src/battlefield.c src/battlefield-maps.h src/battlefield-fighter.h | build
+build/river-trial.o: src/battlefield.c src/battlefield-maps.h src/battlefield-fighter.h src/battlefield-character.h | build
 	"$(GBA_CC)" $(CFLAGS) -DSTART_RIVER_TRIAL -c $< -o $@
 
 build/river-trial.elf: build/start.o build/river-trial.o src/gba.ld
@@ -47,7 +47,7 @@ build/river-trial.elf: build/start.o build/river-trial.o src/gba.ld
 build/%.gba: build/%.elf
 	"$(OBJCOPY)" -O binary $< $@
 
-test: $(ROM) $(BATTLEFIELD)
+test: $(ROM) $(BATTLEFIELD) unit-test
 	$(PYTHON) scripts/check-rom.py $(ROM)
 	$(MAKE) smoke smoke-battlefield
 
@@ -65,3 +65,31 @@ run-battlefield: $(BATTLEFIELD)
 
 clean:
 	rm -rf build
+
+build/closeup-art.h: scripts/generate-closeup.py src/battlefield-terrain.def src/battlefield-maps.h src/battlefield-fighter.h | build
+	$(PYTHON) $< > $@
+
+build/battlefield.o build/river-trial.o: build/closeup-art.h
+
+.PHONY: preview-battle-audio
+preview-battle-audio: build/closeup-art.h build/start.o
+	$(PYTHON) scripts/convert-battle-wav.py "$(BATTLE_WAV)" build/preview-battle.pcm 30
+	$(if $(strip $(MAP_WAV)),$(PYTHON) scripts/convert-battle-wav.py "$(MAP_WAV)" build/preview-map.pcm 30)
+	"$(GBA_CC)" $(CFLAGS) -DSTART_RIVER_TRIAL -DLOCAL_BATTLE_AUDIO $(if $(strip $(MAP_WAV)),-DLOCAL_MAP_AUDIO) -c src/battlefield.c -o build/preview-battle.o
+	"$(GBA_CC)" $(ARCH) -nostdlib -Wl,--build-id=none,-T,src/gba.ld -o build/preview-battle.elf build/start.o build/preview-battle.o
+	"$(OBJCOPY)" -O binary build/preview-battle.elf build/preview-local-only.gba
+
+build/item-data.h: scripts/generate-items.py data/items-srd-5.2.1.json | build
+	$(PYTHON) $^ > $@
+
+build/battlefield.o build/river-trial.o preview-battle-audio: build/item-data.h
+
+.PHONY: unit-test smoke-preview
+unit-test: build/battlefield-rules-test
+	./build/battlefield-rules-test
+
+build/battlefield-rules-test: tests/battlefield-rules.c src/battlefield.c src/battlefield-character.h src/battlefield-maps.h src/battlefield-fighter.h src/battlefield-terrain.def build/closeup-art.h build/item-data.h
+	$(CC) -std=c11 -O2 -Wall -Wextra -Werror -o $@ $<
+
+smoke-preview:
+	$(SMOKE) scripts/smoke-battlefield.py --preview "$(MGBA_CORE)" build/preview-local-only.gba build/preview-check.png

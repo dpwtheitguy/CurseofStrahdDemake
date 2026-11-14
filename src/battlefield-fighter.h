@@ -76,6 +76,26 @@ static const char swim_stroke_pixels[16][17] = {
     "................",
 };
 
+/* Original helmeted bust, rendered at 2× for the character panel. */
+static const char portrait_pixels[16][17] = {
+    "................",
+    ".....111111.....",
+    "....12233221....",
+    "...1233443321...",
+    "...1233433321...",
+    "...1223333221...",
+    "....1555551.....",
+    "....1565651.....",
+    "....1557551.....",
+    ".....17771......",
+    "....1888881.....",
+    "...198888891....",
+    "..1aa98889bb1...",
+    ".1aaa99899bbb1..",
+    ".1aab99899bba1..",
+    "..11111111111...",
+};
+
 /* Five pixel columns, seven rows per glyph. */
 static const uint8_t hud_glyphs[][7] = {
     {0, 0, 0, 0, 0, 0, 0},          /* space */
@@ -115,6 +135,10 @@ static const uint8_t hud_glyphs[][7] = {
     {31, 1, 2, 4, 8, 16, 31}, /* Z */
     {7, 2, 2, 2, 18, 18, 12}, /* J */
     {14, 17, 16, 23, 17, 17, 15}, /* G */
+    {30, 17, 17, 30, 16, 16, 16}, /* P */
+    {17, 17, 17, 17, 17, 17, 14}, /* U */
+    {14, 17, 17, 17, 21, 18, 13}, /* Q */
+    {17, 17, 10, 4, 4, 4, 4}, /* Y */
 };
 
-static const char hud_letters[] = " 0123456789/EFIMNOSTVWABCDHKLRX+=>ZJG";
+static const char hud_letters[] = " 0123456789/EFIMNOSTVWABCDHKLRX+=>ZJGPUQY";

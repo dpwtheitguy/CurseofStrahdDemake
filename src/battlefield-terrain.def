@@ -1,0 +1,10 @@
+/* Symbol, first BG tile (including palette), backdrop, backdrop priority.
+ * Higher priority preserves the more distinctive surface when a scene spans two squares. */
+TERRAIN('.', 0, field, 0)
+TERRAIN('=', 4, road, 1)
+TERRAIN('#', 8, wall, 2)
+TERRAIN('~', 12, water, 4)
+TERRAIN('T', (1 << 12) | 16, forest, 2)
+TERRAIN(',', (1 << 12) | 20, marsh, 3)
+TERRAIN(':', (1 << 12) | 24, stone, 1)
+TERRAIN('+', (1 << 12) | 28, bridge, 5)

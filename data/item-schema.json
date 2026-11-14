@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "source", "items"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "source": {"type": "string"},
+    "items": {"type": "array", "items": {"$ref": "#/$defs/item"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "item": {
+      "type": "object",
+      "required": ["id", "name", "kind", "page"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "name": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["weapon", "armor", "shield", "ammunition", "gear", "tool", "mount", "vehicle", "poison", "magic-item"]},
+        "page": {"type": "integer", "minimum": 1},
+        "price_cp": {"type": ["integer", "null"], "minimum": 0},
+        "weight": {"type": "string"},
+        "pack_quantity": {"type": "integer", "minimum": 1},
+        "weapon": {
+          "type": "object",
+          "required": ["category", "damage", "damage_type", "mastery", "properties", "animation"],
+          "properties": {
+            "category": {"enum": ["simple-melee", "simple-ranged", "martial-melee", "martial-ranged"]},
+            "damage": {"type": "string", "pattern": "^[1-9][0-9]*(d[1-9][0-9]*)?$"},
+            "damage_type": {"enum": ["bludgeoning", "piercing", "slashing"]},
+            "mastery": {"enum": ["cleave", "graze", "nick", "push", "sap", "slow", "topple", "vex"]},
+            "properties": {"type": "array", "uniqueItems": true, "items": {"enum": ["Ammunition", "Finesse", "Light", "Thrown", "Two-Handed", "Versatile", "Heavy", "Reach", "Loading"]}},
+            "animation": {"enum": ["melee", "bow", "crossbow", "firearm", "sling", "blowgun", "throw"]},
+            "range_ft": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 5, "multipleOf": 5}},
+            "versatile_die": {"type": "integer", "minimum": 2},
+            "ammunition": {"$ref": "#/$defs/id"},
+            "one_handed_if_mounted": {"type": "boolean"}
+          }
+        },
+        "armor": {
+          "type": "object",
+          "required": ["base_ac", "dexterity", "strength", "stealth_disadvantage"],
+          "properties": {
+            "base_ac": {"type": "integer", "minimum": 0},
+            "dexterity": {"enum": ["none", "full", "capped-2"]},
+            "strength": {"type": "integer", "minimum": 0},
+            "stealth_disadvantage": {"type": "boolean"}
+          }
+        },
+        "magic": {
+          "type": "object",
+          "required": ["category", "rarities", "attunement"],
+          "properties": {
+            "category": {"type": "string"},
+            "rarities": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+            "attunement": {"type": "boolean"}
+          }
+        }
+      },
+      "allOf": [
+        {"if": {"properties": {"kind": {"const": "weapon"}}}, "then": {"required": ["weapon"]}},
+        {"if": {"properties": {"kind": {"enum": ["armor", "shield"]}}}, "then": {"required": ["armor"]}},
+        {"if": {"properties": {"kind": {"const": "magic-item"}}}, "then": {"required": ["magic"]}}
+      ]
+    }
+  }
+}

@@ -27,7 +27,7 @@ class GameInfo(c.Structure):
     ]
 
 
-def render(core_path, rom_path, inputs=None, *, frames=None):
+def render(core_path, rom_path, inputs=None, *, frames=None, audio=None):
     core = c.CDLL(str(core_path.resolve()))
     pixel_format = 0  # Default libretro 0RGB1555.
     frame = None
@@ -62,12 +62,18 @@ def render(core_path, rom_path, inputs=None, *, frames=None):
     def input_state(port, device, index, ident):
         return int(port == 0 and device == 1 and index == 0 and ident in buttons)
 
+    @AudioBatch
+    def audio_batch(data, frames):
+        if audio is not None:
+            audio.extend(c.string_at(data, frames * 4))
+        return frames
+
     buttons = ()
     callbacks = {
         "environment": environment,
         "video_refresh": video,
         "audio_sample": Audio(lambda left, right: None),
-        "audio_sample_batch": AudioBatch(lambda data, frames: frames),
+        "audio_sample_batch": audio_batch,
         "input_poll": InputPoll(lambda: None),
         "input_state": input_state,
     }

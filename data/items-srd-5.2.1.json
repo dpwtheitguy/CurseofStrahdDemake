@@ -1,0 +1,5602 @@
+{
+  "schema_version": 1,
+  "source": "SRD 5.2.1",
+  "items": [
+    {
+      "id": "acid",
+      "name": "Acid",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 2500
+    },
+    {
+      "id": "adamantine-armor",
+      "name": "Adamantine Armor",
+      "kind": "magic-item",
+      "page": 209,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "airship",
+      "name": "Airship",
+      "kind": "vehicle",
+      "page": 101
+    },
+    {
+      "id": "alchemist-s-fire",
+      "name": "Alchemist’s Fire",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 5000
+    },
+    {
+      "id": "alchemist-s-supplies",
+      "name": "Alchemist’s Supplies",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 5000
+    },
+    {
+      "id": "ammunition",
+      "name": "Ammunition",
+      "kind": "gear",
+      "page": 95,
+      "weight": "Varies",
+      "price_cp": null
+    },
+    {
+      "id": "ammunition-of-slaying",
+      "name": "Ammunition of Slaying",
+      "kind": "magic-item",
+      "page": 209,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "ammunition-plus-1-plus-2-or-plus-3",
+      "name": "Ammunition, +1, +2, or +3",
+      "kind": "magic-item",
+      "page": 209,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "uncommon",
+          "rare",
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "amulet-of-health",
+      "name": "Amulet of Health",
+      "kind": "magic-item",
+      "page": 209,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "amulet-of-proof-against-detection-and-location",
+      "name": "Amulet of Proof against Detection and Location",
+      "kind": "magic-item",
+      "page": 209,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "amulet-of-the-planes",
+      "name": "Amulet of the Planes",
+      "kind": "magic-item",
+      "page": 209,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "animated-shield",
+      "name": "Animated Shield",
+      "kind": "magic-item",
+      "page": 209,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "antitoxin",
+      "name": "Antitoxin",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 5000
+    },
+    {
+      "id": "apparatus-of-the-crab",
+      "name": "Apparatus of the Crab",
+      "kind": "magic-item",
+      "page": 210,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "arcane-focus",
+      "name": "Arcane Focus",
+      "kind": "gear",
+      "page": 95,
+      "weight": "Varies",
+      "price_cp": null
+    },
+    {
+      "id": "arcane-focus-crystal",
+      "name": "Arcane Focus, Crystal",
+      "kind": "gear",
+      "page": 96
+    },
+    {
+      "id": "arcane-focus-orb",
+      "name": "Arcane Focus, Orb",
+      "kind": "gear",
+      "page": 96
+    },
+    {
+      "id": "arcane-focus-rod",
+      "name": "Arcane Focus, Rod",
+      "kind": "gear",
+      "page": 96
+    },
+    {
+      "id": "arcane-focus-staff",
+      "name": "Arcane Focus, Staff",
+      "kind": "gear",
+      "page": 96
+    },
+    {
+      "id": "arcane-focus-wand",
+      "name": "Arcane Focus, Wand",
+      "kind": "gear",
+      "page": 96
+    },
+    {
+      "id": "armor-of-invulnerability",
+      "name": "Armor of Invulnerability",
+      "kind": "magic-item",
+      "page": 210,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "armor-of-resistance",
+      "name": "Armor of Resistance",
+      "kind": "magic-item",
+      "page": 210,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "armor-of-vulnerability",
+      "name": "Armor of Vulnerability",
+      "kind": "magic-item",
+      "page": 211,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "armor-plus-1-plus-2-or-plus-3",
+      "name": "Armor, +1, +2, or +3",
+      "kind": "magic-item",
+      "page": 210,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "rare",
+          "very rare",
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "arrow-catching-shield",
+      "name": "Arrow-Catching Shield",
+      "kind": "magic-item",
+      "page": 211,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "arrows",
+      "name": "Arrows",
+      "kind": "ammunition",
+      "page": 96,
+      "pack_quantity": 20,
+      "price_cp": 100,
+      "weight": "1 lb."
+    },
+    {
+      "id": "assassin-s-blood",
+      "name": "Assassin’s Blood",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "backpack",
+      "name": "Backpack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "bag-of-beans",
+      "name": "Bag of Beans",
+      "kind": "magic-item",
+      "page": 211,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "bag-of-devouring",
+      "name": "Bag of Devouring",
+      "kind": "magic-item",
+      "page": 212,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "bag-of-holding",
+      "name": "Bag of Holding",
+      "kind": "magic-item",
+      "page": 212,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "bag-of-tricks",
+      "name": "Bag of Tricks",
+      "kind": "magic-item",
+      "page": 212,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "bagpipes",
+      "name": "Bagpipes",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 3000
+    },
+    {
+      "id": "ball-bearings",
+      "name": "Ball Bearings",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "barrel",
+      "name": "Barrel",
+      "kind": "gear",
+      "page": 95,
+      "weight": "70 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "basket",
+      "name": "Basket",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 40
+    },
+    {
+      "id": "battleaxe",
+      "name": "Battleaxe",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1000,
+      "weight": "4 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "slashing",
+        "mastery": "topple",
+        "properties": [
+          "Versatile"
+        ],
+        "animation": "melee",
+        "versatile_die": 10
+      }
+    },
+    {
+      "id": "bead-of-force",
+      "name": "Bead of Force",
+      "kind": "magic-item",
+      "page": 212,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "bead-of-nourishment",
+      "name": "Bead of Nourishment",
+      "kind": "magic-item",
+      "page": 213,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "common"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "bedroll",
+      "name": "Bedroll",
+      "kind": "gear",
+      "page": 95,
+      "weight": "7 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "bell",
+      "name": "Bell",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 100
+    },
+    {
+      "id": "belt-of-dwarvenkind",
+      "name": "Belt of Dwarvenkind",
+      "kind": "magic-item",
+      "page": 213,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "belt-of-giant-strength",
+      "name": "Belt of Giant Strength",
+      "kind": "magic-item",
+      "page": 213,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "varies"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "berserker-axe",
+      "name": "Berserker Axe",
+      "kind": "magic-item",
+      "page": 213,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "blanket",
+      "name": "Blanket",
+      "kind": "gear",
+      "page": 95,
+      "weight": "3 lb.",
+      "price_cp": 50
+    },
+    {
+      "id": "block-and-tackle",
+      "name": "Block and Tackle",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "blowgun",
+      "name": "Blowgun",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1000,
+      "weight": "1 lb.",
+      "weapon": {
+        "category": "martial-ranged",
+        "damage": "1",
+        "damage_type": "piercing",
+        "mastery": "vex",
+        "properties": [
+          "Ammunition",
+          "Loading"
+        ],
+        "animation": "blowgun",
+        "range_ft": [
+          25,
+          100
+        ],
+        "ammunition": "needles"
+      }
+    },
+    {
+      "id": "bolts",
+      "name": "Bolts",
+      "kind": "ammunition",
+      "page": 96,
+      "pack_quantity": 20,
+      "price_cp": 100,
+      "weight": "1½ lb."
+    },
+    {
+      "id": "book",
+      "name": "Book",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb.",
+      "price_cp": 2500
+    },
+    {
+      "id": "boots-of-elvenkind",
+      "name": "Boots of Elvenkind",
+      "kind": "magic-item",
+      "page": 213,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "boots-of-levitation",
+      "name": "Boots of Levitation",
+      "kind": "magic-item",
+      "page": 213,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "boots-of-speed",
+      "name": "Boots of Speed",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "boots-of-striding-and-springing",
+      "name": "Boots of Striding and Springing",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "boots-of-the-winterlands",
+      "name": "Boots of the Winterlands",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "bottle-glass",
+      "name": "Bottle, Glass",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "bowl-of-commanding-water-elementals",
+      "name": "Bowl of Commanding Water Elementals",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "bracers-of-archery",
+      "name": "Bracers of Archery",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "bracers-of-defense",
+      "name": "Bracers of Defense",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "brazier-of-commanding-fire-elementals",
+      "name": "Brazier of Commanding Fire Elementals",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "breastplate",
+      "name": "Breastplate",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 40000,
+      "weight": "20 lb.",
+      "armor": {
+        "base_ac": 14,
+        "dexterity": "capped-2",
+        "strength": 0,
+        "stealth_disadvantage": false
+      }
+    },
+    {
+      "id": "brewer-s-supplies",
+      "name": "Brewer’s Supplies",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 2000
+    },
+    {
+      "id": "brooch-of-shielding",
+      "name": "Brooch of Shielding",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "broom-of-flying",
+      "name": "Broom of Flying",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "bucket",
+      "name": "Bucket",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 5
+    },
+    {
+      "id": "bullets-firearm",
+      "name": "Bullets, Firearm",
+      "kind": "ammunition",
+      "page": 96,
+      "pack_quantity": 10,
+      "price_cp": 300,
+      "weight": "2 lb."
+    },
+    {
+      "id": "bullets-sling",
+      "name": "Bullets, Sling",
+      "kind": "ammunition",
+      "page": 96,
+      "pack_quantity": 20,
+      "price_cp": 4,
+      "weight": "1½ lb."
+    },
+    {
+      "id": "burglar-s-pack",
+      "name": "Burglar’s Pack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "42 lb.",
+      "price_cp": 1600
+    },
+    {
+      "id": "burnt-othur-fumes",
+      "name": "Burnt Othur Fumes",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "calligrapher-s-supplies",
+      "name": "Calligrapher’s Supplies",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 1000
+    },
+    {
+      "id": "caltrops",
+      "name": "Caltrops",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "camel",
+      "name": "Camel",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "candle",
+      "name": "Candle",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 1
+    },
+    {
+      "id": "candle-of-invocation",
+      "name": "Candle of Invocation",
+      "kind": "magic-item",
+      "page": 214,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cape-of-the-mountebank",
+      "name": "Cape of the Mountebank",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "carpenter-s-tools",
+      "name": "Carpenter’s Tools",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 800
+    },
+    {
+      "id": "carpet-of-flying",
+      "name": "Carpet of Flying",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "carriage",
+      "name": "Carriage",
+      "kind": "vehicle",
+      "page": 100
+    },
+    {
+      "id": "carrion-crawler-mucus",
+      "name": "Carrion Crawler Mucus",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "cart",
+      "name": "Cart",
+      "kind": "vehicle",
+      "page": 100
+    },
+    {
+      "id": "cartographer-s-tools",
+      "name": "Cartographer’s Tools",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 1500
+    },
+    {
+      "id": "case-crossbow-bolt",
+      "name": "Case, Crossbow Bolt",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "case-map-or-scroll",
+      "name": "Case, Map or Scroll",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "censer-of-controlling-air-elementals",
+      "name": "Censer of Controlling Air Elementals",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "chain",
+      "name": "Chain",
+      "kind": "gear",
+      "page": 95,
+      "weight": "10 lb.",
+      "price_cp": 500
+    },
+    {
+      "id": "chain-mail",
+      "name": "Chain Mail",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 7500,
+      "weight": "55 lb.",
+      "armor": {
+        "base_ac": 16,
+        "dexterity": "none",
+        "strength": 13,
+        "stealth_disadvantage": true
+      }
+    },
+    {
+      "id": "chain-shirt",
+      "name": "Chain Shirt",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 5000,
+      "weight": "20 lb.",
+      "armor": {
+        "base_ac": 13,
+        "dexterity": "capped-2",
+        "strength": 0,
+        "stealth_disadvantage": false
+      }
+    },
+    {
+      "id": "chariot",
+      "name": "Chariot",
+      "kind": "vehicle",
+      "page": 100
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "kind": "gear",
+      "page": 95,
+      "weight": "25 lb.",
+      "price_cp": 500
+    },
+    {
+      "id": "chime-of-opening",
+      "name": "Chime of Opening",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "circlet-of-blasting",
+      "name": "Circlet of Blasting",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "climber-s-kit",
+      "name": "Climber’s Kit",
+      "kind": "gear",
+      "page": 95,
+      "weight": "12 lb.",
+      "price_cp": 2500
+    },
+    {
+      "id": "cloak-of-arachnida",
+      "name": "Cloak of Arachnida",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cloak-of-displacement",
+      "name": "Cloak of Displacement",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cloak-of-elvenkind",
+      "name": "Cloak of Elvenkind",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cloak-of-invisibility",
+      "name": "Cloak of Invisibility",
+      "kind": "magic-item",
+      "page": 215,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cloak-of-protection",
+      "name": "Cloak of Protection",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cloak-of-the-bat",
+      "name": "Cloak of the Bat",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cloak-of-the-manta-ray",
+      "name": "Cloak of the Manta Ray",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "clothes-fine",
+      "name": "Clothes, Fine",
+      "kind": "gear",
+      "page": 95,
+      "weight": "6 lb.",
+      "price_cp": 1500
+    },
+    {
+      "id": "clothes-traveler-s",
+      "name": "Clothes, Traveler’s",
+      "kind": "gear",
+      "page": 95,
+      "weight": "4 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "club",
+      "name": "Club",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 10,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "mastery": "slow",
+        "properties": [
+          "Light"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "cobbler-s-tools",
+      "name": "Cobbler’s Tools",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 500
+    },
+    {
+      "id": "component-pouch",
+      "name": "Component Pouch",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 2500
+    },
+    {
+      "id": "cook-s-utensils",
+      "name": "Cook’s Utensils",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 100
+    },
+    {
+      "id": "costume",
+      "name": "Costume",
+      "kind": "gear",
+      "page": 95,
+      "weight": "4 lb.",
+      "price_cp": 500
+    },
+    {
+      "id": "crowbar",
+      "name": "Crowbar",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "crystal-ball",
+      "name": "Crystal Ball",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "crystal-ball-of-mind-reading",
+      "name": "Crystal Ball of Mind Reading",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "crystal-ball-of-telepathy",
+      "name": "Crystal Ball of Telepathy",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "crystal-ball-of-true-seeing",
+      "name": "Crystal Ball of True Seeing",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cube-of-force",
+      "name": "Cube of Force",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "cubic-gate",
+      "name": "Cubic Gate",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 200,
+      "weight": "1 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "mastery": "nick",
+        "properties": [
+          "Finesse",
+          "Light",
+          "Thrown"
+        ],
+        "animation": "melee",
+        "range_ft": [
+          20,
+          60
+        ]
+      }
+    },
+    {
+      "id": "dagger-of-venom",
+      "name": "Dagger of Venom",
+      "kind": "magic-item",
+      "page": 216,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "dancing-sword",
+      "name": "Dancing Sword",
+      "kind": "magic-item",
+      "page": 217,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "dart",
+      "name": "Dart",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 5,
+      "weight": "1/4 lb.",
+      "weapon": {
+        "category": "simple-ranged",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "mastery": "vex",
+        "properties": [
+          "Finesse",
+          "Thrown"
+        ],
+        "animation": "throw",
+        "range_ft": [
+          20,
+          60
+        ]
+      }
+    },
+    {
+      "id": "decanter-of-endless-water",
+      "name": "Decanter of Endless Water",
+      "kind": "magic-item",
+      "page": 217,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "deck-of-illusions",
+      "name": "Deck of Illusions",
+      "kind": "magic-item",
+      "page": 217,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "defender",
+      "name": "Defender",
+      "kind": "magic-item",
+      "page": 218,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "demon-armor",
+      "name": "Demon Armor",
+      "kind": "magic-item",
+      "page": 218,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "dice",
+      "name": "Dice",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 10
+    },
+    {
+      "id": "dimensional-shackles",
+      "name": "Dimensional Shackles",
+      "kind": "magic-item",
+      "page": 218,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "diplomat-s-pack",
+      "name": "Diplomat’s Pack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "39 lb.",
+      "price_cp": 3900
+    },
+    {
+      "id": "disguise-kit",
+      "name": "Disguise Kit",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 2500
+    },
+    {
+      "id": "dragon-orb",
+      "name": "Dragon Orb",
+      "kind": "magic-item",
+      "page": 218,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "artifact"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "dragon-scale-mail",
+      "name": "Dragon Scale Mail",
+      "kind": "magic-item",
+      "page": 218,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "dragon-slayer",
+      "name": "Dragon Slayer",
+      "kind": "magic-item",
+      "page": 219,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "dragonchess",
+      "name": "Dragonchess",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 100
+    },
+    {
+      "id": "drow-poison",
+      "name": "Drow Poison",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "druidic-focus",
+      "name": "Druidic Focus",
+      "kind": "gear",
+      "page": 95,
+      "weight": "Varies",
+      "price_cp": null
+    },
+    {
+      "id": "druidic-focus-sprig-of-mistletoe",
+      "name": "Druidic Focus, Sprig of Mistletoe",
+      "kind": "gear",
+      "page": 97
+    },
+    {
+      "id": "druidic-focus-wooden-staff",
+      "name": "Druidic Focus, Wooden Staff",
+      "kind": "gear",
+      "page": 97
+    },
+    {
+      "id": "druidic-focus-yew-wand",
+      "name": "Druidic Focus, Yew Wand",
+      "kind": "gear",
+      "page": 97
+    },
+    {
+      "id": "drum",
+      "name": "Drum",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 600
+    },
+    {
+      "id": "dulcimer",
+      "name": "Dulcimer",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 2500
+    },
+    {
+      "id": "dungeoneer-s-pack",
+      "name": "Dungeoneer’s Pack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "55 lb.",
+      "price_cp": 1200
+    },
+    {
+      "id": "dust-of-disappearance",
+      "name": "Dust of Disappearance",
+      "kind": "magic-item",
+      "page": 219,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "dust-of-dryness",
+      "name": "Dust of Dryness",
+      "kind": "magic-item",
+      "page": 219,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "dust-of-sneezing-and-choking",
+      "name": "Dust of Sneezing and Choking",
+      "kind": "magic-item",
+      "page": 219,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "dwarven-plate",
+      "name": "Dwarven Plate",
+      "kind": "magic-item",
+      "page": 219,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "dwarven-thrower",
+      "name": "Dwarven Thrower",
+      "kind": "magic-item",
+      "page": 219,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "efficient-quiver",
+      "name": "Efficient Quiver",
+      "kind": "magic-item",
+      "page": 219,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "efreeti-bottle",
+      "name": "Efreeti Bottle",
+      "kind": "magic-item",
+      "page": 220,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "elemental-gem",
+      "name": "Elemental Gem",
+      "kind": "magic-item",
+      "page": 220,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "elephant",
+      "name": "Elephant",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "elixir-of-health",
+      "name": "Elixir of Health",
+      "kind": "magic-item",
+      "page": 220,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "elven-chain",
+      "name": "Elven Chain",
+      "kind": "magic-item",
+      "page": 220,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "energy-bow",
+      "name": "Energy Bow",
+      "kind": "magic-item",
+      "page": 220,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "entertainer-s-pack",
+      "name": "Entertainer’s Pack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "58½ lb.",
+      "price_cp": 4000
+    },
+    {
+      "id": "essence-of-ether",
+      "name": "Essence of Ether",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "eversmoking-bottle",
+      "name": "Eversmoking Bottle",
+      "kind": "magic-item",
+      "page": 220,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "explorer-s-pack",
+      "name": "Explorer’s Pack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "55 lb.",
+      "price_cp": 1000
+    },
+    {
+      "id": "eyes-of-charming",
+      "name": "Eyes of Charming",
+      "kind": "magic-item",
+      "page": 221,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "eyes-of-minute-seeing",
+      "name": "Eyes of Minute Seeing",
+      "kind": "magic-item",
+      "page": 221,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "eyes-of-the-eagle",
+      "name": "Eyes of the Eagle",
+      "kind": "magic-item",
+      "page": 221,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "feather-token",
+      "name": "Feather Token",
+      "kind": "magic-item",
+      "page": 221,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "varies"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "feed-per-day",
+      "name": "Feed per Day",
+      "kind": "gear",
+      "page": 100
+    },
+    {
+      "id": "figurine-of-wondrous-power",
+      "name": "Figurine of Wondrous Power",
+      "kind": "magic-item",
+      "page": 221,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "varies"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "flail",
+      "name": "Flail",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1000,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "bludgeoning",
+        "mastery": "sap",
+        "properties": [],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "flame-tongue",
+      "name": "Flame Tongue",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "flask",
+      "name": "Flask",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 2
+    },
+    {
+      "id": "flute",
+      "name": "Flute",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 200
+    },
+    {
+      "id": "folding-boat",
+      "name": "Folding Boat",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "forgery-kit",
+      "name": "Forgery Kit",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 1500
+    },
+    {
+      "id": "frost-brand",
+      "name": "Frost Brand",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "galley",
+      "name": "Galley",
+      "kind": "vehicle",
+      "page": 101
+    },
+    {
+      "id": "gaming-set",
+      "name": "Gaming Set",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": null
+    },
+    {
+      "id": "gauntlets-of-ogre-power",
+      "name": "Gauntlets of Ogre Power",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "gem-of-brightness",
+      "name": "Gem of Brightness",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "gem-of-seeing",
+      "name": "Gem of Seeing",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "giant-slayer",
+      "name": "Giant Slayer",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "glaive",
+      "name": "Glaive",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 2000,
+      "weight": "6 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d10",
+        "damage_type": "slashing",
+        "mastery": "graze",
+        "properties": [
+          "Heavy",
+          "Reach",
+          "Two-Handed"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "glamoured-studded-leather",
+      "name": "Glamoured Studded Leather",
+      "kind": "magic-item",
+      "page": 223,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "glassblower-s-tools",
+      "name": "Glassblower’s Tools",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 3000
+    },
+    {
+      "id": "gloves-of-missile-snaring",
+      "name": "Gloves of Missile Snaring",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "gloves-of-swimming-and-climbing",
+      "name": "Gloves of Swimming and Climbing",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "gloves-of-thievery",
+      "name": "Gloves of Thievery",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "goggles-of-night",
+      "name": "Goggles of Night",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "grappling-hook",
+      "name": "Grappling Hook",
+      "kind": "gear",
+      "page": 95,
+      "weight": "4 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 3000,
+      "weight": "7 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d12",
+        "damage_type": "slashing",
+        "mastery": "cleave",
+        "properties": [
+          "Heavy",
+          "Two-Handed"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "greatclub",
+      "name": "Greatclub",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 20,
+      "weight": "10 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d8",
+        "damage_type": "bludgeoning",
+        "mastery": "push",
+        "properties": [
+          "Two-Handed"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "greatsword",
+      "name": "Greatsword",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 5000,
+      "weight": "6 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "2d6",
+        "damage_type": "slashing",
+        "mastery": "graze",
+        "properties": [
+          "Heavy",
+          "Two-Handed"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "halberd",
+      "name": "Halberd",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 2000,
+      "weight": "6 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d10",
+        "damage_type": "slashing",
+        "mastery": "cleave",
+        "properties": [
+          "Heavy",
+          "Reach",
+          "Two-Handed"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "half-plate-armor",
+      "name": "Half Plate Armor",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 75000,
+      "weight": "40 lb.",
+      "armor": {
+        "base_ac": 15,
+        "dexterity": "capped-2",
+        "strength": 0,
+        "stealth_disadvantage": true
+      }
+    },
+    {
+      "id": "hammer-of-thunderbolts",
+      "name": "Hammer of Thunderbolts",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "hand-crossbow",
+      "name": "Hand Crossbow",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 7500,
+      "weight": "3 lb.",
+      "weapon": {
+        "category": "martial-ranged",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "mastery": "vex",
+        "properties": [
+          "Ammunition",
+          "Light",
+          "Loading"
+        ],
+        "animation": "crossbow",
+        "range_ft": [
+          30,
+          120
+        ],
+        "ammunition": "bolts"
+      }
+    },
+    {
+      "id": "handaxe",
+      "name": "Handaxe",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 500,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "mastery": "vex",
+        "properties": [
+          "Light",
+          "Thrown"
+        ],
+        "animation": "melee",
+        "range_ft": [
+          20,
+          60
+        ]
+      }
+    },
+    {
+      "id": "handy-haversack",
+      "name": "Handy Haversack",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "hat-of-disguise",
+      "name": "Hat of Disguise",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "hat-of-many-spells",
+      "name": "Hat of Many Spells",
+      "kind": "magic-item",
+      "page": 224,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "headband-of-intellect",
+      "name": "Headband of Intellect",
+      "kind": "magic-item",
+      "page": 225,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "healer-s-kit",
+      "name": "Healer’s Kit",
+      "kind": "gear",
+      "page": 95,
+      "weight": "3 lb.",
+      "price_cp": 500
+    },
+    {
+      "id": "heavy-crossbow",
+      "name": "Heavy Crossbow",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 5000,
+      "weight": "18 lb.",
+      "weapon": {
+        "category": "martial-ranged",
+        "damage": "1d10",
+        "damage_type": "piercing",
+        "mastery": "push",
+        "properties": [
+          "Ammunition",
+          "Heavy",
+          "Loading",
+          "Two-Handed"
+        ],
+        "animation": "crossbow",
+        "range_ft": [
+          100,
+          400
+        ],
+        "ammunition": "bolts"
+      }
+    },
+    {
+      "id": "helm-of-brilliance",
+      "name": "Helm of Brilliance",
+      "kind": "magic-item",
+      "page": 225,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "helm-of-comprehending-languages",
+      "name": "Helm of Comprehending Languages",
+      "kind": "magic-item",
+      "page": 226,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "helm-of-telepathy",
+      "name": "Helm of Telepathy",
+      "kind": "magic-item",
+      "page": 226,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "helm-of-teleportation",
+      "name": "Helm of Teleportation",
+      "kind": "magic-item",
+      "page": 226,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "herbalism-kit",
+      "name": "Herbalism Kit",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 500
+    },
+    {
+      "id": "hide-armor",
+      "name": "Hide Armor",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 1000,
+      "weight": "12 lb.",
+      "armor": {
+        "base_ac": 12,
+        "dexterity": "capped-2",
+        "strength": 0,
+        "stealth_disadvantage": false
+      }
+    },
+    {
+      "id": "holy-avenger",
+      "name": "Holy Avenger",
+      "kind": "magic-item",
+      "page": 226,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "holy-symbol",
+      "name": "Holy Symbol",
+      "kind": "gear",
+      "page": 95,
+      "weight": "Varies",
+      "price_cp": null
+    },
+    {
+      "id": "holy-symbol-amulet",
+      "name": "Holy Symbol, Amulet",
+      "kind": "gear",
+      "page": 97
+    },
+    {
+      "id": "holy-symbol-emblem",
+      "name": "Holy Symbol, Emblem",
+      "kind": "gear",
+      "page": 97
+    },
+    {
+      "id": "holy-symbol-reliquary",
+      "name": "Holy Symbol, Reliquary",
+      "kind": "gear",
+      "page": 97
+    },
+    {
+      "id": "holy-water",
+      "name": "Holy Water",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 2500
+    },
+    {
+      "id": "horn",
+      "name": "Horn",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 300
+    },
+    {
+      "id": "horn-of-blasting",
+      "name": "Horn of Blasting",
+      "kind": "magic-item",
+      "page": 226,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "horn-of-valhalla",
+      "name": "Horn of Valhalla",
+      "kind": "magic-item",
+      "page": 226,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare",
+          "very rare",
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "horse-draft",
+      "name": "Horse, Draft",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "horse-riding",
+      "name": "Horse, Riding",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "horseshoes-of-a-zephyr",
+      "name": "Horseshoes of a Zephyr",
+      "kind": "magic-item",
+      "page": 226,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "horseshoes-of-speed",
+      "name": "Horseshoes of Speed",
+      "kind": "magic-item",
+      "page": 227,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "hunting-trap",
+      "name": "Hunting Trap",
+      "kind": "gear",
+      "page": 95,
+      "weight": "25 lb.",
+      "price_cp": 500
+    },
+    {
+      "id": "immovable-rod",
+      "name": "Immovable Rod",
+      "kind": "magic-item",
+      "page": 227,
+      "magic": {
+        "category": "rod",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "ink",
+      "name": "Ink",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 1000
+    },
+    {
+      "id": "instant-fortress",
+      "name": "Instant Fortress",
+      "kind": "magic-item",
+      "page": 227,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ioun-stone",
+      "name": "Ioun Stone",
+      "kind": "magic-item",
+      "page": 227,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "varies"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "iron-bands",
+      "name": "Iron Bands",
+      "kind": "magic-item",
+      "page": 228,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "iron-flask",
+      "name": "Iron Flask",
+      "kind": "magic-item",
+      "page": 228,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "javelin",
+      "name": "Javelin",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 50,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "mastery": "slow",
+        "properties": [
+          "Thrown"
+        ],
+        "animation": "melee",
+        "range_ft": [
+          30,
+          120
+        ]
+      }
+    },
+    {
+      "id": "javelin-of-lightning",
+      "name": "Javelin of Lightning",
+      "kind": "magic-item",
+      "page": 228,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "jeweler-s-tools",
+      "name": "Jeweler’s Tools",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 2500
+    },
+    {
+      "id": "jug",
+      "name": "Jug",
+      "kind": "gear",
+      "page": 95,
+      "weight": "4 lb.",
+      "price_cp": 2
+    },
+    {
+      "id": "keelboat",
+      "name": "Keelboat",
+      "kind": "vehicle",
+      "page": 101
+    },
+    {
+      "id": "ladder",
+      "name": "Ladder",
+      "kind": "gear",
+      "page": 95,
+      "weight": "25 lb.",
+      "price_cp": 10
+    },
+    {
+      "id": "lamp",
+      "name": "Lamp",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 50
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1000,
+      "weight": "6 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d10",
+        "damage_type": "piercing",
+        "mastery": "topple",
+        "properties": [
+          "Heavy",
+          "Reach",
+          "Two-Handed"
+        ],
+        "animation": "melee",
+        "one_handed_if_mounted": true
+      }
+    },
+    {
+      "id": "lantern-bullseye",
+      "name": "Lantern, Bullseye",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 1000
+    },
+    {
+      "id": "lantern-hooded",
+      "name": "Lantern, Hooded",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 500
+    },
+    {
+      "id": "lantern-of-revealing",
+      "name": "Lantern of Revealing",
+      "kind": "magic-item",
+      "page": 228,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "leather-armor",
+      "name": "Leather Armor",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 1000,
+      "weight": "10 lb.",
+      "armor": {
+        "base_ac": 11,
+        "dexterity": "full",
+        "strength": 0,
+        "stealth_disadvantage": false
+      }
+    },
+    {
+      "id": "leatherworker-s-tools",
+      "name": "Leatherworker’s Tools",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 500
+    },
+    {
+      "id": "light-crossbow",
+      "name": "Light Crossbow",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 2500,
+      "weight": "5 lb.",
+      "weapon": {
+        "category": "simple-ranged",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "mastery": "slow",
+        "properties": [
+          "Ammunition",
+          "Loading",
+          "Two-Handed"
+        ],
+        "animation": "crossbow",
+        "range_ft": [
+          80,
+          320
+        ],
+        "ammunition": "bolts"
+      }
+    },
+    {
+      "id": "light-hammer",
+      "name": "Light Hammer",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 200,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "mastery": "nick",
+        "properties": [
+          "Light",
+          "Thrown"
+        ],
+        "animation": "melee",
+        "range_ft": [
+          20,
+          60
+        ]
+      }
+    },
+    {
+      "id": "lock",
+      "name": "Lock",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 1000
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 5000,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "martial-ranged",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "mastery": "slow",
+        "properties": [
+          "Ammunition",
+          "Heavy",
+          "Two-Handed"
+        ],
+        "animation": "bow",
+        "range_ft": [
+          150,
+          600
+        ],
+        "ammunition": "arrows"
+      }
+    },
+    {
+      "id": "longship",
+      "name": "Longship",
+      "kind": "vehicle",
+      "page": 101
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1500,
+      "weight": "3 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "slashing",
+        "mastery": "sap",
+        "properties": [
+          "Versatile"
+        ],
+        "animation": "melee",
+        "versatile_die": 10
+      }
+    },
+    {
+      "id": "luck-blade",
+      "name": "Luck Blade",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "lute",
+      "name": "Lute",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 3500
+    },
+    {
+      "id": "lyre",
+      "name": "Lyre",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 3000
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 500,
+      "weight": "4 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d6",
+        "damage_type": "bludgeoning",
+        "mastery": "sap",
+        "properties": [],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "mace-of-disruption",
+      "name": "Mace of Disruption",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "mace-of-smiting",
+      "name": "Mace of Smiting",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "mace-of-terror",
+      "name": "Mace of Terror",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "magnifying-glass",
+      "name": "Magnifying Glass",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 10000
+    },
+    {
+      "id": "malice",
+      "name": "Malice",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "manacles",
+      "name": "Manacles",
+      "kind": "gear",
+      "page": 95,
+      "weight": "6 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "mantle-of-spell-resistance",
+      "name": "Mantle of Spell Resistance",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "manual-of-bodily-health",
+      "name": "Manual of Bodily Health",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "manual-of-gainful-exercise",
+      "name": "Manual of Gainful Exercise",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "manual-of-golems",
+      "name": "Manual of Golems",
+      "kind": "magic-item",
+      "page": 229,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "manual-of-quickness-of-action",
+      "name": "Manual of Quickness of Action",
+      "kind": "magic-item",
+      "page": 230,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "map",
+      "name": "Map",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 100
+    },
+    {
+      "id": "marvelous-pigments",
+      "name": "Marvelous Pigments",
+      "kind": "magic-item",
+      "page": 230,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "mason-s-tools",
+      "name": "Mason’s Tools",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 1000
+    },
+    {
+      "id": "mastiff",
+      "name": "Mastiff",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "maul",
+      "name": "Maul",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1000,
+      "weight": "10 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "2d6",
+        "damage_type": "bludgeoning",
+        "mastery": "topple",
+        "properties": [
+          "Heavy",
+          "Two-Handed"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "medallion-of-thoughts",
+      "name": "Medallion of Thoughts",
+      "kind": "magic-item",
+      "page": 230,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "midnight-tears",
+      "name": "Midnight Tears",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "mirror",
+      "name": "Mirror",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1/2 lb.",
+      "price_cp": 500
+    },
+    {
+      "id": "mirror-of-life-trapping",
+      "name": "Mirror of Life Trapping",
+      "kind": "magic-item",
+      "page": 230,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "mithral-armor",
+      "name": "Mithral Armor",
+      "kind": "magic-item",
+      "page": 231,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "morningstar",
+      "name": "Morningstar",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1500,
+      "weight": "4 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "mastery": "sap",
+        "properties": [],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "mule",
+      "name": "Mule",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "musical-instrument",
+      "name": "Musical Instrument",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": null
+    },
+    {
+      "id": "musket",
+      "name": "Musket",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 50000,
+      "weight": "10 lb.",
+      "weapon": {
+        "category": "martial-ranged",
+        "damage": "1d12",
+        "damage_type": "piercing",
+        "mastery": "slow",
+        "properties": [
+          "Ammunition",
+          "Loading",
+          "Two-Handed"
+        ],
+        "animation": "firearm",
+        "range_ft": [
+          40,
+          120
+        ],
+        "ammunition": "bullets-firearm"
+      }
+    },
+    {
+      "id": "mysterious-deck",
+      "name": "Mysterious Deck",
+      "kind": "magic-item",
+      "page": 231,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "navigator-s-tools",
+      "name": "Navigator’s Tools",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 2500
+    },
+    {
+      "id": "necklace-of-adaptation",
+      "name": "Necklace of Adaptation",
+      "kind": "magic-item",
+      "page": 232,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "necklace-of-fireballs",
+      "name": "Necklace of Fireballs",
+      "kind": "magic-item",
+      "page": 233,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "necklace-of-prayer-beads",
+      "name": "Necklace of Prayer Beads",
+      "kind": "magic-item",
+      "page": 233,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "needles",
+      "name": "Needles",
+      "kind": "ammunition",
+      "page": 96,
+      "pack_quantity": 50,
+      "price_cp": 100,
+      "weight": "1 lb."
+    },
+    {
+      "id": "net",
+      "name": "Net",
+      "kind": "gear",
+      "page": 95,
+      "weight": "3 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "nine-lives-stealer",
+      "name": "Nine Lives Stealer",
+      "kind": "magic-item",
+      "page": 233,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "oathbow",
+      "name": "Oathbow",
+      "kind": "magic-item",
+      "page": 233,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "oil",
+      "name": "Oil",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 10
+    },
+    {
+      "id": "oil-of-etherealness",
+      "name": "Oil of Etherealness",
+      "kind": "magic-item",
+      "page": 233,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "oil-of-sharpness",
+      "name": "Oil of Sharpness",
+      "kind": "magic-item",
+      "page": 233,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "oil-of-slipperiness",
+      "name": "Oil of Slipperiness",
+      "kind": "magic-item",
+      "page": 233,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "oil-of-taggit",
+      "name": "Oil of Taggit",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "padded-armor",
+      "name": "Padded Armor",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 500,
+      "weight": "8 lb.",
+      "armor": {
+        "base_ac": 11,
+        "dexterity": "full",
+        "strength": 0,
+        "stealth_disadvantage": true
+      }
+    },
+    {
+      "id": "painter-s-supplies",
+      "name": "Painter’s Supplies",
+      "kind": "tool",
+      "page": 93,
+      "price_cp": 1000
+    },
+    {
+      "id": "pale-tincture",
+      "name": "Pale Tincture",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "pan-flute",
+      "name": "Pan Flute",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 1200
+    },
+    {
+      "id": "paper",
+      "name": "Paper",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 20
+    },
+    {
+      "id": "parchment",
+      "name": "Parchment",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 10
+    },
+    {
+      "id": "pearl-of-power",
+      "name": "Pearl of Power",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "perfume",
+      "name": "Perfume",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 500
+    },
+    {
+      "id": "periapt-of-health",
+      "name": "Periapt of Health",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "periapt-of-proof-against-poison",
+      "name": "Periapt of Proof against Poison",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "periapt-of-wound-closure",
+      "name": "Periapt of Wound Closure",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "philter-of-love",
+      "name": "Philter of Love",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "pike",
+      "name": "Pike",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 500,
+      "weight": "18 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d10",
+        "damage_type": "piercing",
+        "mastery": "push",
+        "properties": [
+          "Heavy",
+          "Reach",
+          "Two-Handed"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "pipes-of-haunting",
+      "name": "Pipes of Haunting",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "pipes-of-the-sewers",
+      "name": "Pipes of the Sewers",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 25000,
+      "weight": "3 lb.",
+      "weapon": {
+        "category": "martial-ranged",
+        "damage": "1d10",
+        "damage_type": "piercing",
+        "mastery": "vex",
+        "properties": [
+          "Ammunition",
+          "Loading"
+        ],
+        "animation": "firearm",
+        "range_ft": [
+          30,
+          90
+        ],
+        "ammunition": "bullets-firearm"
+      }
+    },
+    {
+      "id": "plate-armor",
+      "name": "Plate Armor",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 150000,
+      "weight": "65 lb.",
+      "armor": {
+        "base_ac": 18,
+        "dexterity": "none",
+        "strength": 15,
+        "stealth_disadvantage": true
+      }
+    },
+    {
+      "id": "plate-armor-of-etherealness",
+      "name": "Plate Armor of Etherealness",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "playing-cards",
+      "name": "Playing Cards",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 50
+    },
+    {
+      "id": "poison-basic",
+      "name": "Poison, Basic",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 10000
+    },
+    {
+      "id": "poisoner-s-kit",
+      "name": "Poisoner’s Kit",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 5000
+    },
+    {
+      "id": "pole",
+      "name": "Pole",
+      "kind": "gear",
+      "page": 95,
+      "weight": "7 lb.",
+      "price_cp": 5
+    },
+    {
+      "id": "pony",
+      "name": "Pony",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "portable-hole",
+      "name": "Portable Hole",
+      "kind": "magic-item",
+      "page": 234,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "pot-iron",
+      "name": "Pot, Iron",
+      "kind": "gear",
+      "page": 95,
+      "weight": "10 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "potion-of-animal-friendship",
+      "name": "Potion of Animal Friendship",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-clairvoyance",
+      "name": "Potion of Clairvoyance",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-climbing",
+      "name": "Potion of Climbing",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "common"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-diminution",
+      "name": "Potion of Diminution",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-flying",
+      "name": "Potion of Flying",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-gaseous-form",
+      "name": "Potion of Gaseous Form",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-giant-strength",
+      "name": "Potion of Giant Strength",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "varies"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-growth",
+      "name": "Potion of Growth",
+      "kind": "magic-item",
+      "page": 235,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-healing",
+      "name": "Potion of Healing",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1/2 lb.",
+      "price_cp": 5000
+    },
+    {
+      "id": "potion-of-heroism",
+      "name": "Potion of Heroism",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-invisibility",
+      "name": "Potion of Invisibility",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-invulnerability",
+      "name": "Potion of Invulnerability",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-longevity",
+      "name": "Potion of Longevity",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-mind-reading",
+      "name": "Potion of Mind Reading",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-poison",
+      "name": "Potion of Poison",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-resistance",
+      "name": "Potion of Resistance",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-speed",
+      "name": "Potion of Speed",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-vitality",
+      "name": "Potion of Vitality",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potion-of-water-breathing",
+      "name": "Potion of Water Breathing",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potions-of-healing",
+      "name": "Potions of Healing",
+      "kind": "magic-item",
+      "page": 236,
+      "magic": {
+        "category": "potion",
+        "rarities": [
+          "varies"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "potter-s-tools",
+      "name": "Potter’s Tools",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 1000
+    },
+    {
+      "id": "pouch",
+      "name": "Pouch",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 50
+    },
+    {
+      "id": "priest-s-pack",
+      "name": "Priest’s Pack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "29 lb.",
+      "price_cp": 3300
+    },
+    {
+      "id": "purple-worm-poison",
+      "name": "Purple Worm Poison",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "quarterstaff",
+      "name": "Quarterstaff",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 20,
+      "weight": "4 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d6",
+        "damage_type": "bludgeoning",
+        "mastery": "topple",
+        "properties": [
+          "Versatile"
+        ],
+        "animation": "melee",
+        "versatile_die": 8
+      }
+    },
+    {
+      "id": "quarterstaff-of-the-acrobat",
+      "name": "Quarterstaff of the Acrobat",
+      "kind": "magic-item",
+      "page": 237,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "quiver",
+      "name": "Quiver",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "ram-portable",
+      "name": "Ram, Portable",
+      "kind": "gear",
+      "page": 95,
+      "weight": "35 lb.",
+      "price_cp": 400
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 2500,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "mastery": "vex",
+        "properties": [
+          "Finesse"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "rations",
+      "name": "Rations",
+      "kind": "gear",
+      "page": 95,
+      "weight": "2 lb.",
+      "price_cp": 50
+    },
+    {
+      "id": "ring-mail",
+      "name": "Ring Mail",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 3000,
+      "weight": "40 lb.",
+      "armor": {
+        "base_ac": 14,
+        "dexterity": "none",
+        "strength": 0,
+        "stealth_disadvantage": true
+      }
+    },
+    {
+      "id": "ring-of-animal-influence",
+      "name": "Ring of Animal Influence",
+      "kind": "magic-item",
+      "page": 237,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "ring-of-djinni-summoning",
+      "name": "Ring of Djinni Summoning",
+      "kind": "magic-item",
+      "page": 237,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-elemental-command",
+      "name": "Ring of Elemental Command",
+      "kind": "magic-item",
+      "page": 237,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-evasion",
+      "name": "Ring of Evasion",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-feather-falling",
+      "name": "Ring of Feather Falling",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-free-action",
+      "name": "Ring of Free Action",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-invisibility",
+      "name": "Ring of Invisibility",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-jumping",
+      "name": "Ring of Jumping",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-mind-shielding",
+      "name": "Ring of Mind Shielding",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-protection",
+      "name": "Ring of Protection",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-regeneration",
+      "name": "Ring of Regeneration",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-resistance",
+      "name": "Ring of Resistance",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "ring-of-shooting-stars",
+      "name": "Ring of Shooting Stars",
+      "kind": "magic-item",
+      "page": 238,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-spell-storing",
+      "name": "Ring of Spell Storing",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-spell-turning",
+      "name": "Ring of Spell Turning",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-swimming",
+      "name": "Ring of Swimming",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "ring-of-telekinesis",
+      "name": "Ring of Telekinesis",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-the-ram",
+      "name": "Ring of the Ram",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-three-wishes",
+      "name": "Ring of Three Wishes",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "ring-of-warmth",
+      "name": "Ring of Warmth",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "ring-of-water-walking",
+      "name": "Ring of Water Walking",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "ring-of-x-ray-vision",
+      "name": "Ring of X-ray Vision",
+      "kind": "magic-item",
+      "page": 239,
+      "magic": {
+        "category": "ring",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "robe",
+      "name": "Robe",
+      "kind": "gear",
+      "page": 95,
+      "weight": "4 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "robe-of-eyes",
+      "name": "Robe of Eyes",
+      "kind": "magic-item",
+      "page": 240,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "robe-of-scintillating-colors",
+      "name": "Robe of Scintillating Colors",
+      "kind": "magic-item",
+      "page": 240,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "robe-of-stars",
+      "name": "Robe of Stars",
+      "kind": "magic-item",
+      "page": 240,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "robe-of-the-archmagi",
+      "name": "Robe of the Archmagi",
+      "kind": "magic-item",
+      "page": 240,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "robe-of-useful-items",
+      "name": "Robe of Useful Items",
+      "kind": "magic-item",
+      "page": 240,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "rod-of-absorption",
+      "name": "Rod of Absorption",
+      "kind": "magic-item",
+      "page": 241,
+      "magic": {
+        "category": "rod",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "rod-of-alertness",
+      "name": "Rod of Alertness",
+      "kind": "magic-item",
+      "page": 241,
+      "magic": {
+        "category": "rod",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "rod-of-lordly-might",
+      "name": "Rod of Lordly Might",
+      "kind": "magic-item",
+      "page": 241,
+      "magic": {
+        "category": "rod",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "rod-of-resurrection",
+      "name": "Rod of Resurrection",
+      "kind": "magic-item",
+      "page": 242,
+      "magic": {
+        "category": "rod",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "rod-of-rulership",
+      "name": "Rod of Rulership",
+      "kind": "magic-item",
+      "page": 242,
+      "magic": {
+        "category": "rod",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "rod-of-security",
+      "name": "Rod of Security",
+      "kind": "magic-item",
+      "page": 242,
+      "magic": {
+        "category": "rod",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "rope-of-climbing",
+      "name": "Rope of Climbing",
+      "kind": "magic-item",
+      "page": 242,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "rope-of-entanglement",
+      "name": "Rope of Entanglement",
+      "kind": "magic-item",
+      "page": 242,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "rowboat",
+      "name": "Rowboat",
+      "kind": "vehicle",
+      "page": 101
+    },
+    {
+      "id": "sack",
+      "name": "Sack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1/2 lb.",
+      "price_cp": 1
+    },
+    {
+      "id": "saddle-exotic",
+      "name": "Saddle, Exotic",
+      "kind": "gear",
+      "page": 100
+    },
+    {
+      "id": "saddle-military",
+      "name": "Saddle, Military",
+      "kind": "gear",
+      "page": 100
+    },
+    {
+      "id": "sailing-ship",
+      "name": "Sailing Ship",
+      "kind": "vehicle",
+      "page": 101
+    },
+    {
+      "id": "scale-mail",
+      "name": "Scale Mail",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 5000,
+      "weight": "45 lb.",
+      "armor": {
+        "base_ac": 14,
+        "dexterity": "capped-2",
+        "strength": 0,
+        "stealth_disadvantage": true
+      }
+    },
+    {
+      "id": "scarab-of-protection",
+      "name": "Scarab of Protection",
+      "kind": "magic-item",
+      "page": 243,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "scholar-s-pack",
+      "name": "Scholar’s Pack",
+      "kind": "gear",
+      "page": 95,
+      "weight": "22 lb.",
+      "price_cp": 4000
+    },
+    {
+      "id": "scimitar",
+      "name": "Scimitar",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 2500,
+      "weight": "3 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "mastery": "nick",
+        "properties": [
+          "Finesse",
+          "Light"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "scimitar-of-speed",
+      "name": "Scimitar of Speed",
+      "kind": "magic-item",
+      "page": 243,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "sending-stones",
+      "name": "Sending Stones",
+      "kind": "magic-item",
+      "page": 243,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "sentinel-shield",
+      "name": "Sentinel Shield",
+      "kind": "magic-item",
+      "page": 243,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "serpent-venom",
+      "name": "Serpent Venom",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "shawm",
+      "name": "Shawm",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 200
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "kind": "shield",
+      "page": 92,
+      "price_cp": 1000,
+      "weight": "6 lb.",
+      "armor": {
+        "base_ac": 2,
+        "dexterity": "none",
+        "strength": 0,
+        "stealth_disadvantage": false
+      }
+    },
+    {
+      "id": "shield-of-missile-attraction",
+      "name": "Shield of Missile Attraction",
+      "kind": "magic-item",
+      "page": 243,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "shield-of-the-cavalier",
+      "name": "Shield of the Cavalier",
+      "kind": "magic-item",
+      "page": 243,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "shield-plus-1-plus-2-or-plus-3",
+      "name": "Shield, +1, +2, or +3",
+      "kind": "magic-item",
+      "page": 243,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "uncommon",
+          "rare",
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "shortbow",
+      "name": "Shortbow",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 2500,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "simple-ranged",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "mastery": "vex",
+        "properties": [
+          "Ammunition",
+          "Two-Handed"
+        ],
+        "animation": "bow",
+        "range_ft": [
+          80,
+          320
+        ],
+        "ammunition": "arrows"
+      }
+    },
+    {
+      "id": "shortsword",
+      "name": "Shortsword",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1000,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "mastery": "vex",
+        "properties": [
+          "Finesse",
+          "Light"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "shovel",
+      "name": "Shovel",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "sickle",
+      "name": "Sickle",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 100,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d4",
+        "damage_type": "slashing",
+        "mastery": "nick",
+        "properties": [
+          "Light"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "signal-whistle",
+      "name": "Signal Whistle",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 5
+    },
+    {
+      "id": "sled",
+      "name": "Sled",
+      "kind": "vehicle",
+      "page": 100
+    },
+    {
+      "id": "sling",
+      "name": "Sling",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 10,
+      "weight": "—",
+      "weapon": {
+        "category": "simple-ranged",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "mastery": "slow",
+        "properties": [
+          "Ammunition"
+        ],
+        "animation": "sling",
+        "range_ft": [
+          30,
+          120
+        ],
+        "ammunition": "bullets-sling"
+      }
+    },
+    {
+      "id": "slippers-of-spider-climbing",
+      "name": "Slippers of Spider Climbing",
+      "kind": "magic-item",
+      "page": 244,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "smith-s-tools",
+      "name": "Smith’s Tools",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 2000
+    },
+    {
+      "id": "sovereign-glue",
+      "name": "Sovereign Glue",
+      "kind": "magic-item",
+      "page": 244,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "spear",
+      "name": "Spear",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 100,
+      "weight": "3 lb.",
+      "weapon": {
+        "category": "simple-melee",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "mastery": "sap",
+        "properties": [
+          "Thrown",
+          "Versatile"
+        ],
+        "animation": "melee",
+        "range_ft": [
+          20,
+          60
+        ],
+        "versatile_die": 8
+      }
+    },
+    {
+      "id": "spell-scroll",
+      "name": "Spell Scroll",
+      "kind": "magic-item",
+      "page": 244,
+      "magic": {
+        "category": "scroll",
+        "rarities": [
+          "varies"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "spell-scroll-cantrip",
+      "name": "Spell Scroll (Cantrip)",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 3000
+    },
+    {
+      "id": "spell-scroll-level-1",
+      "name": "Spell Scroll (Level 1)",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 5000
+    },
+    {
+      "id": "spellguard-shield",
+      "name": "Spellguard Shield",
+      "kind": "magic-item",
+      "page": 244,
+      "magic": {
+        "category": "armor",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "sphere-of-annihilation",
+      "name": "Sphere of Annihilation",
+      "kind": "magic-item",
+      "page": 244,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "spikes-iron",
+      "name": "Spikes, Iron",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb.",
+      "price_cp": 100
+    },
+    {
+      "id": "splint-armor",
+      "name": "Splint Armor",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 20000,
+      "weight": "60 lb.",
+      "armor": {
+        "base_ac": 17,
+        "dexterity": "none",
+        "strength": 15,
+        "stealth_disadvantage": true
+      }
+    },
+    {
+      "id": "spyglass",
+      "name": "Spyglass",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 100000
+    },
+    {
+      "id": "staff-of-charming",
+      "name": "Staff of Charming",
+      "kind": "magic-item",
+      "page": 245,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-fire",
+      "name": "Staff of Fire",
+      "kind": "magic-item",
+      "page": 245,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-frost",
+      "name": "Staff of Frost",
+      "kind": "magic-item",
+      "page": 245,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-healing",
+      "name": "Staff of Healing",
+      "kind": "magic-item",
+      "page": 245,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-power",
+      "name": "Staff of Power",
+      "kind": "magic-item",
+      "page": 245,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-striking",
+      "name": "Staff of Striking",
+      "kind": "magic-item",
+      "page": 246,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-swarming-insects",
+      "name": "Staff of Swarming Insects",
+      "kind": "magic-item",
+      "page": 246,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-the-magi",
+      "name": "Staff of the Magi",
+      "kind": "magic-item",
+      "page": 246,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-the-python",
+      "name": "Staff of the Python",
+      "kind": "magic-item",
+      "page": 247,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-the-woodlands",
+      "name": "Staff of the Woodlands",
+      "kind": "magic-item",
+      "page": 247,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-thunder-and-lightning",
+      "name": "Staff of Thunder and Lightning",
+      "kind": "magic-item",
+      "page": 247,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "staff-of-withering",
+      "name": "Staff of Withering",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "staff",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "stone-of-controlling-earth-elementals",
+      "name": "Stone of Controlling Earth Elementals",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "stone-of-good-luck-luckstone",
+      "name": "Stone of Good Luck (Luckstone)",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "string",
+      "name": "String",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 10
+    },
+    {
+      "id": "studded-leather-armor",
+      "name": "Studded Leather Armor",
+      "kind": "armor",
+      "page": 92,
+      "price_cp": 4500,
+      "weight": "13 lb.",
+      "armor": {
+        "base_ac": 12,
+        "dexterity": "full",
+        "strength": 0,
+        "stealth_disadvantage": false
+      }
+    },
+    {
+      "id": "sun-blade",
+      "name": "Sun Blade",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "sword-of-life-stealing",
+      "name": "Sword of Life Stealing",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "sword-of-sharpness",
+      "name": "Sword of Sharpness",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "sword-of-wounding",
+      "name": "Sword of Wounding",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "talisman-of-pure-good",
+      "name": "Talisman of Pure Good",
+      "kind": "magic-item",
+      "page": 248,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "talisman-of-the-sphere",
+      "name": "Talisman of the Sphere",
+      "kind": "magic-item",
+      "page": 249,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "talisman-of-ultimate-evil",
+      "name": "Talisman of Ultimate Evil",
+      "kind": "magic-item",
+      "page": 249,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "tent",
+      "name": "Tent",
+      "kind": "gear",
+      "page": 95,
+      "weight": "20 lb.",
+      "price_cp": 200
+    },
+    {
+      "id": "thieves-tools",
+      "name": "Thieves’ Tools",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 2500
+    },
+    {
+      "id": "three-dragon-ante",
+      "name": "Three-Dragon Ante",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 100
+    },
+    {
+      "id": "thunderous-greatclub",
+      "name": "Thunderous Greatclub",
+      "kind": "magic-item",
+      "page": 249,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "tinderbox",
+      "name": "Tinderbox",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 50
+    },
+    {
+      "id": "tinker-s-tools",
+      "name": "Tinker’s Tools",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 5000
+    },
+    {
+      "id": "tome-of-clear-thought",
+      "name": "Tome of Clear Thought",
+      "kind": "magic-item",
+      "page": 249,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "tome-of-leadership-and-influence",
+      "name": "Tome of Leadership and Influence",
+      "kind": "magic-item",
+      "page": 249,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "tome-of-understanding",
+      "name": "Tome of Understanding",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "kind": "gear",
+      "page": 95,
+      "weight": "1 lb.",
+      "price_cp": 1
+    },
+    {
+      "id": "torpor",
+      "name": "Torpor",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "trident",
+      "name": "Trident",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 500,
+      "weight": "4 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "mastery": "topple",
+        "properties": [
+          "Thrown",
+          "Versatile"
+        ],
+        "animation": "melee",
+        "range_ft": [
+          20,
+          60
+        ],
+        "versatile_die": 10
+      }
+    },
+    {
+      "id": "trident-of-fish-command",
+      "name": "Trident of Fish Command",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "truth-serum",
+      "name": "Truth Serum",
+      "kind": "poison",
+      "page": 197
+    },
+    {
+      "id": "universal-solvent",
+      "name": "Universal Solvent",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "vial",
+      "name": "Vial",
+      "kind": "gear",
+      "page": 95,
+      "weight": "—",
+      "price_cp": 100
+    },
+    {
+      "id": "vicious-weapon",
+      "name": "Vicious Weapon",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "viol",
+      "name": "Viol",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 3000
+    },
+    {
+      "id": "vorpal-sword",
+      "name": "Vorpal Sword",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wagon",
+      "name": "Wagon",
+      "kind": "vehicle",
+      "page": 100
+    },
+    {
+      "id": "wand-of-binding",
+      "name": "Wand of Binding",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-enemy-detection",
+      "name": "Wand of Enemy Detection",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-fear",
+      "name": "Wand of Fear",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-fireballs",
+      "name": "Wand of Fireballs",
+      "kind": "magic-item",
+      "page": 250,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-lightning-bolts",
+      "name": "Wand of Lightning Bolts",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-magic-detection",
+      "name": "Wand of Magic Detection",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "wand-of-magic-missiles",
+      "name": "Wand of Magic Missiles",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "wand-of-paralysis",
+      "name": "Wand of Paralysis",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-polymorph",
+      "name": "Wand of Polymorph",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-secrets",
+      "name": "Wand of Secrets",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "wand-of-the-war-mage-plus-1-plus-2-or-plus-3",
+      "name": "Wand of the War Mage, +1, +2, or +3",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "uncommon",
+          "rare",
+          "very rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-web",
+      "name": "Wand of Web",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wand-of-wonder",
+      "name": "Wand of Wonder",
+      "kind": "magic-item",
+      "page": 251,
+      "magic": {
+        "category": "wand",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "war-pick",
+      "name": "War Pick",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 500,
+      "weight": "2 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "mastery": "sap",
+        "properties": [
+          "Versatile"
+        ],
+        "animation": "melee",
+        "versatile_die": 10
+      }
+    },
+    {
+      "id": "warhammer",
+      "name": "Warhammer",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 1500,
+      "weight": "5 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d8",
+        "damage_type": "bludgeoning",
+        "mastery": "push",
+        "properties": [
+          "Versatile"
+        ],
+        "animation": "melee",
+        "versatile_die": 10
+      }
+    },
+    {
+      "id": "warhorse",
+      "name": "Warhorse",
+      "kind": "mount",
+      "page": 100
+    },
+    {
+      "id": "warship",
+      "name": "Warship",
+      "kind": "vehicle",
+      "page": 101
+    },
+    {
+      "id": "waterskin",
+      "name": "Waterskin",
+      "kind": "gear",
+      "page": 95,
+      "weight": "5 lb. (full)",
+      "price_cp": 20
+    },
+    {
+      "id": "weapon-of-warning",
+      "name": "Weapon of Warning",
+      "kind": "magic-item",
+      "page": 253,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "weapon-plus-1-plus-2-or-plus-3",
+      "name": "Weapon, +1, +2, or +3",
+      "kind": "magic-item",
+      "page": 253,
+      "magic": {
+        "category": "weapon",
+        "rarities": [
+          "uncommon",
+          "rare",
+          "very rare"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "weaver-s-tools",
+      "name": "Weaver’s Tools",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 100
+    },
+    {
+      "id": "well-of-many-worlds",
+      "name": "Well of Many Worlds",
+      "kind": "magic-item",
+      "page": 253,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "legendary"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "whip",
+      "name": "Whip",
+      "kind": "weapon",
+      "page": 91,
+      "price_cp": 200,
+      "weight": "3 lb.",
+      "weapon": {
+        "category": "martial-melee",
+        "damage": "1d4",
+        "damage_type": "slashing",
+        "mastery": "slow",
+        "properties": [
+          "Finesse",
+          "Reach"
+        ],
+        "animation": "melee"
+      }
+    },
+    {
+      "id": "wind-fan",
+      "name": "Wind Fan",
+      "kind": "magic-item",
+      "page": 253,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": false
+      }
+    },
+    {
+      "id": "winged-boots",
+      "name": "Winged Boots",
+      "kind": "magic-item",
+      "page": 253,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "uncommon"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "wings-of-flying",
+      "name": "Wings of Flying",
+      "kind": "magic-item",
+      "page": 253,
+      "magic": {
+        "category": "wondrous-item",
+        "rarities": [
+          "rare"
+        ],
+        "attunement": true
+      }
+    },
+    {
+      "id": "woodcarver-s-tools",
+      "name": "Woodcarver’s Tools",
+      "kind": "tool",
+      "page": 94,
+      "price_cp": 100
+    },
+    {
+      "id": "wyvern-poison",
+      "name": "Wyvern Poison",
+      "kind": "poison",
+      "page": 197
+    }
+  ]
+}
